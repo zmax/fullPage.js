@@ -3,9 +3,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>One Single Section - fullPage.js</title>
+	<title>One single section - fullPage.js</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage One Single Section." />
+	<meta name="description" content="fullPage One single section." />
 	<meta name="keywords"  content="fullpage,One, Single, Section" />
 	<meta name="Resource-type" content="Document" />
 
@@ -85,7 +85,8 @@
 				anchors: ['firstPage'],
 				sectionsColor: ['#4A6FB1'],
 				autoScrolling: false,
-				css3: true
+				css3: true,
+				fitToSection: false
 			});
 		});
 	</script>
@@ -98,6 +99,7 @@
   <option id="backgrounds">Background images</option>
   <option id="backgroundVideo">Background video</option>
   <option id="gradientBackgrounds">Gradient backgrounds</option>
+  <option id="backgroundsFixed">Fixed fullscreen backgrounds</option>
   <option id="looping">Looping</option>
   <option id="noAnchor">No anchor links</option>
   <option id="scrollingSpeed">Scrolling speed</option>
@@ -112,8 +114,9 @@
   <option id="navigationH">Horizontal navigation dots</option>
   <option id="fixedHeaders">Fixed headers</option>
   <option id="apple">Apple iPhone demo (animations)</option>
-  <option id="oneSection">One Single Section</option>
-  <option id="responsive">Responsive</option>
+  <option id="oneSection">One single section</option>
+  <option id="responsiveHeight">Responsive Height</option>
+  <option id="responsiveWidth">Responsive Width</option>
   <option id="methods">Methods</option>
 </select>
 
@@ -121,7 +124,7 @@
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="slide">
-			<h1>One Single Section</h1>
+			<h1>One single section</h1>
 		</div>
 		<div class="slide">
 			<h1>And a normal website under it</h1>
@@ -137,8 +140,8 @@
 <div class="wrap">
 	<h1>This is like a normal website.</h1>
 
-	Just place the rest of your page after the fullpage wrapper. And enjoy a great single slider.
-
+	Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
+	<script src="https://gist.github.com/alvarotrigo/368e6d6ad3c5c0e98d3c.js"></script>
 	<script src="https://gist.github.com/alvarotrigo/c74366b59ecba2f9c3da.js"></script>
 
 	<h1> Rest of your site </h1>
